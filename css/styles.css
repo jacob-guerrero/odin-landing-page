@@ -1,7 +1,43 @@
 html {
     box-sizing: border-box;
-  }
+}
 *, *:before, *:after {
     box-sizing: inherit;
-  }
-  
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    height: 10vh;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.nav-bar ul {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 1vh 0;
+    border-bottom: 1px solid #1f2937;
+    transition: 0.3s ease-out;
+}
+ul a:hover {
+    border-bottom: 1px solid #e5e7eb;
+}
