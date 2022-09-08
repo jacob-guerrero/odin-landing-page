@@ -41,3 +41,24 @@ ul a {
 ul a:hover {
     border-bottom: 1px solid #e5e7eb;
 }
+
+.main {
+    background-color: #1f2937;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.main p {
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
