@@ -20,6 +20,7 @@ body {
 .nav-bar h1 {
     font-size: 24px;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 .nav-bar ul {
     display: flex;
@@ -82,6 +83,7 @@ button {
     font-weight: bold;
     padding: 8px 24px;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .info {
@@ -106,6 +108,7 @@ button {
 }
 .box {
     max-width: 200px;
+    flex: auto;
 }
 .box img {
     border: 4px solid #3882f6;
@@ -180,3 +183,34 @@ footer p {
     margin: 0;
     font-size: 18px; 
 }
+
+
+@media (max-width: 800px) {
+    .main {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 0px;
+    }
+    .main-text {
+        flex: auto;
+    }
+    img {
+        width: 100%;
+        flex: auto;
+    }
+
+    .info {
+        gap: 0px;
+    }
+    .info-container {
+        gap: 16px;
+    }
+
+    blockquote {
+        font-size: 1.8rem;
+    }
+    .quotes p {
+        font-size: 1.2rem;
+    }
+}
+
