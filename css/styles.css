@@ -73,7 +73,6 @@ ul a:hover {
     padding: 16px 0;
     color: #e5e7eb;
 }
-
 img {
     max-width: 500px;
     width: 100%;
@@ -92,6 +91,7 @@ button {
 button:hover {
     cursor: pointer;
 }
+
 .info {
     text-align: center;
     height: 60vh;
@@ -231,7 +231,11 @@ footer p {
     }
     .nav-bar {
         flex-direction: column;
+        justify-content: center;
     }
+    .nav-bar a img {
+        width: 100px
+    };
     .nav-bar h1 {
         margin: 0;
     }
