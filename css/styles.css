@@ -110,7 +110,7 @@ button {
     max-width: 200px;
     flex: auto;
 }
-.box img {
+.box a img {
     border: 4px solid #3882f6;
     border-radius: 10px;
     max-width: 200px;
