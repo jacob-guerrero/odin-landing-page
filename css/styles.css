@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.nav-bar h1 {
+.nav-bar h1 a{
     font-size: 24px;
     color: #f9faf8;
     flex-shrink: 0;
