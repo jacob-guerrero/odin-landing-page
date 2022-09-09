@@ -7,6 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-bar {
@@ -83,11 +84,12 @@ button {
 
 .info {
     text-align: center;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 .info h2 {
     font-size: 2.2rem;
@@ -108,4 +110,30 @@ button {
     border-radius: 10px;
     max-width: 200px;
     height: auto;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-quote {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+blockquote {
+    margin: 0;
+    flex: auto;
+    font-size: 2.2rem;
+    font-style: italic;
+}
+.quotes p {
+    flex: auto;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    align-self: flex-end;
 }
