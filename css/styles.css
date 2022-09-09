@@ -159,12 +159,12 @@ blockquote {
     justify-content: space-around;
     align-items: center;
 }
-.text h2 {
+.action-text h2 {
     margin: 0;
     padding: 0;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
-.text p {
+.action-text p {
     margin: 0;
 }
 .action-container button {
@@ -193,6 +193,7 @@ footer p {
     }
     .main-text {
         flex: auto;
+        padding: 0 16px;
     }
     img {
         width: 100%;
@@ -214,3 +215,66 @@ footer p {
     }
 }
 
+
+@media (max-width: 600px) {
+    ul {
+        padding: 0 8px;
+    }
+    ul a {
+        padding: 0;
+    }
+    .nav-bar {
+        flex-direction: column;
+    }
+    .nav-bar h1 {
+        margin: 0;
+    }
+
+    .info {
+        height: auto;
+    }
+
+    .first-quote {
+        padding: 0 16px;
+    }
+    
+    .action {
+        padding: 0 16px;
+    }
+    .action-container {
+        padding: 16px 8px;
+        text-align: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    a {
+        font-size: 16px;
+    }
+    .main h2 {
+        font-size: 2.5rem;
+    }
+    .main p {
+        font-size: 1.2rem;
+    }
+
+    .info h2 {
+        font-size: 2rem;
+    }
+
+    .quotes {
+        text-align: center;
+    }
+    .first-quote {
+        gap: 16px;
+    }
+    blockquote {
+        font-size: 1.4rem;
+    }
+    .quotes p {
+        font-size: 1rem;
+        align-self: center;
+    }
+}
