@@ -17,11 +17,14 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.nav-bar h1 a{
+.nav-bar a img{
+    width: 140px;
+}
+/* .nav-bar h1 a{
     font-size: 24px;
     color: #f9faf8;
     flex-shrink: 0;
-}
+} */
 .nav-bar ul {
     display: flex;
     gap: 16px;
@@ -73,6 +76,7 @@ ul a:hover {
 
 img {
     max-width: 500px;
+    width: 100%;
     height: auto;
 }
 
@@ -85,7 +89,9 @@ button {
     border-radius: 10px;
     flex-shrink: 0;
 }
-
+button:hover {
+    cursor: pointer;
+}
 .info {
     text-align: center;
     height: 60vh;
